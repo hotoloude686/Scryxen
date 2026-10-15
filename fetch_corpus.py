@@ -21,7 +21,7 @@ import zipfile
 from pathlib import Path
 
 ASSET_URL = (
-    "https://github.com/isaactimmer/CyberSecurityCapstone"
+    "https://github.com/hotoloude686/Scryxen"
     "/releases/download/corpus-v1/Scryxen-corpus.zip"
 )
 DEST = Path(__file__).parent / "data" / "nvd_corpus.db"

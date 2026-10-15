@@ -28,8 +28,8 @@ open a terminal and type a few commands, you can do this. The whole thing runs
 Clone the repo, then move into its folder:
 
 ```powershell
-git clone https://github.com/isaactimmer/CyberSecurityCapstone.git
-cd CyberSecurityCapstone
+git clone https://github.com/hotoloude686/Scryxen.git
+cd Scryxen
 ```
 
 If you already cloned it before, just update instead:
@@ -67,7 +67,7 @@ It skips the download if the file is already there (add `--force` to re-download
 
 **Manual fallback** if the script can't reach GitHub: download
 `Scryxen-corpus.zip` from the
-[corpus-v1 release](https://github.com/isaactimmer/CyberSecurityCapstone/releases/tag/corpus-v1),
+[corpus-v1 release](https://github.com/hotoloude686/Scryxen/releases/tag/corpus-v1),
 then unzip `nvd_corpus.db` into a `data` folder at the project root so the path
 is `data\nvd_corpus.db`.
 

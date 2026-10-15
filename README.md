@@ -11,8 +11,8 @@ Requires Python 3.11+ and git. In a terminal (the VS Code terminal is fine):
 
 ```bash
 # 1. Clone
-git clone https://github.com/isaactimmer/CyberSecurityCapstone.git
-cd CyberSecurityCapstone
+git clone https://github.com/hotoloude686/Scryxen.git
+cd Scryxen
 
 # 2. Create a virtual env and install dependencies
 py -m venv .venv
@@ -32,7 +32,7 @@ Then open <http://localhost:8000>.
 
 Scans read a local, pre-merged NVD+EPSS+KEV corpus. It's ~481MB — too large for
 git — so it ships as a **GitHub Release asset** (release
-[`corpus-v1`](https://github.com/isaactimmer/CyberSecurityCapstone/releases/tag/corpus-v1)).
+[`corpus-v1`](https://github.com/hotoloude686/Scryxen/releases/tag/corpus-v1)).
 `fetch_corpus.py` downloads and unpacks it into `data/nvd_corpus.db` for you
 (stdlib only, no extra tools). It skips the download if the file is already
 there; pass `--force` to re-download.
